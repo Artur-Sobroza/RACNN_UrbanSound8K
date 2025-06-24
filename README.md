@@ -20,13 +20,18 @@ Baixe o dataset ESC-50 em: https://github.com/karolpiczak/ESC-50
 Baixe o dataset UrbanSound8K em: https://urbansounddataset.weebly.com/urbansound8k.html
 Após o download, faça upload de ambos os datasets para uma pasta de sua escolha no Google Drive (por exemplo, Meu Drive/datasets/).
 Nos notebooks, haverá instruções para montar o seu Google Drive e apontar o caminho para a pasta onde você salvou os datasets.
+
 Sequência de Execução dos Notebooks:
 Para uma experiência completa e para reproduzir os resultados, siga a ordem de execução dos notebooks e o propósito de cada um:
 
-ESC-50_R11_GH.ipynb: Este notebook realiza o pré-treinamento do modelo RACNN utilizando o dataset ESC-50. Ele estabelece a base para a transferência de aprendizado.
-Analise_UrbanSound8K_GH.ipynb: Dedicado à análise exploratória e preparação do dataset UrbanSound8K, incluindo a compreensão da distribuição das classes e características dos áudios.
-UrbanSound8K_R6_GH.ipynb: Este é o notebook central onde ocorre o finetuning do modelo RACNN (pré-treinado no ESC-50) para a tarefa de classificação no UrbanSound8K, incluindo a metodologia de validação cruzada de 10 folds e a geração das métricas de desempenho.
-Analises_Graficas_GH.ipynb: Utilizado para gerar visualizações e gráficos a partir dos resultados obtidos no notebook anterior, facilitando a interpretação das métricas de Precision, Recall, F1-Score e outros padrões de desempenho do modelo.
+1. ESC-50_R11_GH.ipynb: Este notebook realiza o pré-treinamento do modelo RACNN utilizando o dataset ESC-50. Ele estabelece a base para a transferência de aprendizado.
+
+2. Analise_UrbanSound8K_GH.ipynb: Dedicado à análise exploratória e preparação do dataset UrbanSound8K, incluindo a compreensão da distribuição das classes e características dos áudios.
+
+3. UrbanSound8K_R6_GH.ipynb: Este é o notebook central onde ocorre o finetuning do modelo RACNN (pré-treinado no ESC-50) para a tarefa de classificação no UrbanSound8K, incluindo a metodologia de validação cruzada de 10 folds e a geração das métricas de desempenho.
+
+4. Analises_Graficas_GH.ipynb: Utilizado para gerar visualizações e gráficos a partir dos resultados obtidos no notebook anterior, facilitando a interpretação das métricas de Precision, Recall, F1-Score e outros padrões de desempenho do modelo.
+
 Onde obter ajuda com o projeto?
 Se você tiver dúvidas, encontrar problemas ou precisar de ajuda com o projeto, por favor, abra uma "Issue" diretamente neste repositório do GitHub.
 
