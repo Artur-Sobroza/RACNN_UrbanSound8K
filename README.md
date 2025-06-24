@@ -10,7 +10,7 @@ Este trabalho oferece insights valiosos sobre a aplicação de Transferência de
 Como começar a usar o projeto?
 Para começar a explorar este projeto, que foi desenvolvido para ser executado no Google Colab:
 
-Clone o repositório: git clone [URL_DO_SEU_REPOSITORIO]
+Clone o repositório: git clone [https://github.com/Artur-Sobroza/RACNN_UrbanSound8K)]
 
 Abra os notebooks no Google Colab: Os notebooks Jupyter (.ipynb) estão configurados para instalar todas as dependências necessárias diretamente em suas células de código.
 
